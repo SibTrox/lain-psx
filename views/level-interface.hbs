@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Experiments Lain</title>
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/game.css">
+    <style>   
+        .medium{
+            height: 100%;
+            text-align: center;
+        }
+    </style>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="/audio/Lain Psx Loop 1.mp3" type="audio/mpeg">
+    </audio>
+    <div class="up-line color-line">
+        <a class="top-menu" href="/">
+            <img src="/img/svg/Home.svg" id="logo-tachibana" onmouseover="TachibanaLogoSelected()" onmouseout="TachibanaLogoNotSelected()">
+        </a>
+    </div>
+    <div class="medium"> 
+        <div class="left-section">
+            <p href="#" class="sitio-a">Sitio A</p>
+            <a href="#" class="sitio-b">Sitio B</a>
+            <div class="levels">
+                {{#for 1 22 1}}
+                    <a href="/game/level-{{@index}}{{this}}">{{@index}}{{this}}</a>
+                {{/for}}
+            </div>
+            <img src="/img/game_gifs/01_03.gif" class="lain-gif" id="lain-gif">
+        </div>
+        <div class="right-section">
+            <hr class="hr">
+            <img src="/img/levels_svg/spanish/lvl_04.svg" class="right-section-level">
+            <section class="archive-section">
+                {{#each LainResponse}}
+                <a class="archive" href="/game/{{URL.[0]}}/{{URL.[1]}}" id="{{Tipo}}" onmouseover="imgSelected(this);" onmouseout="imgNotSelected(this);">
+                    <img class="archive-image" src="/img/game_svg/normal/{{Tipo}}.svg" id="{{ID}}">
+                    <p class="archive-link">{{ID}}</p>
+                </a>
+                {{/each}}
+            </section>
+        </div>
+    </div>
+    <div class="lain-gif-mobile">
+        <img src="/img/game_gifs/01_04.gif" id="lain-gif-mobile-img">
+    </div>
+    <footer class="bottom-line color-line">
+        <p style="color: white; text-align: center;">Traducción de LIF, ver créditos <a href="#" style="text-decoration: none; color: #FFB437;">Aquí</a></p>
+    </footer>
+    <script src="/js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+    "level-1" : {
+        "cou001" : {
+            "ID" : "Cou001",
+            "Ubicacion" : "Sitio A, Nivel 04, #14",
+            "Requiere" : "Nada",
+            "Revela" : "Cou002, Dia001",
+            "Tipo" : "Cou",
+            "URL" : ["level-1" , "cou001"],
+            "Tags" : ["kind", "Obstacle", "black tea"],
+            "Audio" : [true, "Cou001.mp3"],
+            "Video" : [false],
+            "Gif" : "Cou001.gif",
+            "Dialogos" : {
+                "1" : [ "Touko" , "Señora, usted puede esperar aquí en el vestíbulo por favor. Lain‑chan, no tienes de qué preocuparte. \nAdelante, puedes tomar asiento.\n¿Quieres un poco de jugo o algo para beber? \nNo tienes por qué estar nerviosa… \nVamos a ver, yo tengo sed, así que iré por un té, ¿quisieras un poco también? Es que se vería raro si lo tomo yo sola. Gracias. ¿Cuál te gustaría? Tengo muchos para elegir."],
+                "2" : [ "Lain" , "El mismo que usted."],
+                "3" : [ "Touko" , "¿Té negro? Está bien, aguarda un segundo. \nPuedes ponerle azúcar y leche si quieres. Aquí tienes. \nMh… ¿Y cómo podríamos empezar? Este de aquí es té Earl Grey, esta clase de té me gusta mucho."],
+                "4" : [ "Lain" , "¿Earl Grey?"],
+                "5" : [ "Touko" , "Sí, incluso con el té negro, hay de muchos tipos, con diferente aroma y diferente sabor."],
+                "6" : [ "Lain" , "¿Sabe bien?"],
+                "7" : [ "Touko" , "Mh, bueno, va con mi gusto, pero no sé si a ti te gustará. Si quieres, puedes darle un sorbo, y si no te gusta, puedo traer algo más para ti, ¿está bien? Toma."]
+            },
+            "Diccionario" : {
+                "1" : ["* Delirio de referencia.", "Implica darle excesiva importancia a eventos mundanos o a simples coincidencias, creyendo que todo está ligado a su destino."],
+                "2" : ["Delirio persecutorio" , "(Véase Cou020)."],
+                "3" : ["Esquizofrenia" , "(Véase Cou012)."],
+                "4" : ["Síndrome del sabio." , "Talento o capacidad muy desarrollada en un campo aislado, comúnmente paralela al autismo u otras discapacidades mentales."]
+            }
+        },
+        "cou002" : {
+            "ID" : "Cou002",
+            "Ubicacion" : "Sitio A, Nivel 04, #15",
+            "Requiere" : "Cou001",
+            "Revela" : "Cou003, Tda024",
+            "Tipo" : "Cou",
+            "URL" : ["level-1" , "cou002"],
+            "Tags" : ["milk", "dislike", "consultation"],
+            "Audio" : [true, "Cou002.mp3"],
+            "Video" : [false],
+            "Gif" : "Cou002.gif",
+            "Dialogos" : {
+                "1" : [ "Lain" , "Me revuelve el estómago."],
+                "2" : [ "Touko" , "Jajaja, a decir verdad, cuando yo era niña tenía el mismo problema, así que era terrible cuando el almuerzo escolar incluía leche, aunque ahora puedo beberla."],
+                "3" : [ "Lain" , "Pero en verdad me gusta…"],
+                "4" : [ "Touko" , "¿Qué me dices de la leche que no revuelve tu estómago?"],
+                "5" : [ "Lain" , "¿Ésa cuál es?"],
+                "6" : [ "Touko" , "Olvidé cómo se llama, pero es leche que no revuelve tu estómago. La inventaron hace tiempo, y es fácil de conseguir. Si le dices a tu mamá, seguro que la buscará para ti."]
+            }
+        },
+        "dc1040" : {
+            "ID" : "Dc1040",
+            "Ubicacion" : "Sitio A, Nivel 05, #13",
+            "Requiere" : "Nada",
+            "Revela" : "Nada",
+            "Tipo" : "Dc",
+            "URL" : ["level-1" , "dc1040"],
+            "Tags" : ["moving", "chaos", "prompt"],
+            "Audio" : [true, "Cou001.mp3"],
+            "Video" : [true, "Dc1040.mp4"],
+            "Gif" : "Dc1040.gif",
+            "Dialogos" : {
+                "1" : [ "Lain" , "Me revuelve el estómago."],
+                "2" : [ "Touko" , "Jajaja, a decir verdad, cuando yo era niña tenía el mismo problema, así que era terrible cuando el almuerzo escolar incluía leche, aunque ahora puedo beberla."],
+                "3" : [ "Lain" , "Pero en verdad me gusta…"],
+                "4" : [ "Touko" , "¿Qué me dices de la leche que no revuelve tu estómago?"],
+                "5" : [ "Lain" , "¿Ésa cuál es?"],
+                "6" : [ "Touko" , "Olvidé cómo se llama, pero es leche que no revuelve tu estómago. La inventaron hace tiempo, y es fácil de conseguir. Si le dices a tu mamá, seguro que la buscará para ti."]
+            }
+        }
+
+    }
+}

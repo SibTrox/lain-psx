@@ -1,0 +1,456 @@
+*{
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "FiraSans";
+    src: url("../font/FiraSans-Black.ttf");
+}
+@font-face {
+    font-family: "FiraCode";
+    src: url("../font/FiraCode-Regular.ttf");
+}
+@font-face {
+    font-family: "FiraCode-Bold";
+    src: url("../font/FiraCode-Bold.ttf");
+}
+@font-face {
+    font-family: "FiraCode-Medium";
+    src: url("../font/FiraCode-Medium.ttf");
+}
+html, body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* Tachibana logo en movimiento */
+.tachibana-logo-animado{
+    height: 87px;
+    width: 92px;
+}
+#ojo_izq,#ojo_der,#nucleo,#cuerpo,#punto_01,#punto_02,#punto_03 {
+    fill: white;
+    height: 150px;
+}
+
+#punto_01 {
+    animation: rota_punto_01 2s infinite ease-in-out;
+    transform-origin: 50% 43%;
+    }
+
+#punto_02 {
+    animation: rota_punto_02 2s infinite ease-in-out;
+    transform-origin: 55% 50%;
+    }
+
+#punto_03 {
+    animation: rota_punto_03 2s infinite ease-in-out;
+    transform-origin: 45% 50%;
+    }
+
+#ojo_izq,#ojo_der {
+animation: rota_ojo 2s infinite ease-in-out;
+transform-origin: 50% 43%;
+}
+
+#nucleo {
+    animation: parpadeo 2s infinite ease-in-out;
+    transform-origin: 50% 43%;
+    }
+
+@keyframes rota_ojo {
+    form {
+        transform: rotateX(0deg);
+    }
+        to {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes rota_punto_01 {
+    form {
+        transform: rotateZ(0deg);
+    }
+        to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rota_punto_02 {
+    form {
+        transform: rotateZ(0deg);
+    }
+        to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rota_punto_03 {
+    form {
+        transform: rotateZ(0deg);
+    }
+        to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes parpadeo {
+    form {
+        transform: rotateX(0deg);
+    }
+        to {
+        transform: rotateX(360deg);
+    }
+}
+/* Lineas de arriba y abajo */
+
+    .color-line{
+        background-color: #4B46C8;
+    }
+    .up-line { 
+        grid-area: 1 / 1 / 2 / 2; 
+        padding: 0.6vw;
+        margin: 0;
+    }
+    .bottom-line { 
+        grid-area: 3 / 1 / 4 / 2; 
+    }
+/* Color de texto y etiquetas a */
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 4%;
+    }
+    .menu a{
+        text-decoration: none;
+        color: #FFB437;
+    }
+    .menu a:hover{
+        color: #FFEE52;
+    }
+    .menu p{
+        text-decoration: none;
+        color: #4B46C8;
+    }
+    footer p{
+        font-family: "FiraCode";
+        font-size: 1vw;
+        padding-top: 0.2vw;
+        padding-bottom: 0.2vw;
+    }
+    .tachibana-logo{
+        height: 3.5vw;
+    }
+    .acceder{
+        text-decoration: none;
+        color: #FFB437; 
+        font-size: 1.7vw;
+        font-family: 'FiraCode-Bold';
+    }
+    .acceder:hover{
+        color: #FFEE52;
+    }
+    .proximamente{
+        text-decoration: none;
+        color: white; 
+        font-size: 1.4vw;
+        font-family: 'FiraCode-Bold';
+    }
+/* Contenedor y midlane */
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr 0.1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .medium { 
+        grid-area: 2 / 1 / 3 / 2; 
+        background-color: #202028;
+        text-align: center;
+        width: 84%;
+    }
+    .lain-gif{ 
+        margin-top: 2%;
+        height: 25vw;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: stretch;
+        padding: 2% 0% 2% 0%; 
+    }
+    .item {
+        margin: 0.5%;
+        font-size: 1.25vw;
+        font-family: "FiraCode-Bold";
+    }
+    .top-menu{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 60%;
+    }
+    .volver{
+        align-self: center;
+        margin-left: 1%;
+        margin-right: 84%;
+
+    }
+/* Rutas */
+    .title{
+        font-family: 'FiraCode';
+        color: white;
+        font-size: 2.5vw;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 70%;
+    }
+    .title::first-letter{
+        color: #FFB437;
+        font-family: "FiraCode-Bold";
+    }
+    .medium{
+        text-align: left;
+    }
+    .contenido{
+        color: white;
+        width: 70%;
+        font-family: "FiraCode";
+        padding-bottom: 7%;
+        margin-top: 3%;
+    }
+    footer{
+        width: 100%;
+    }
+    h3{
+        text-align: center;
+        font-family: 'FiraCode-Bold';
+        font-size: 2vw;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .h3-subtitulo{
+        font-size: 1.2vw;
+    }
+    .top-menu img{
+        height: 2vw;
+        min-height: 32px;
+    }
+    .volver p{
+        text-decoration: none;
+        color: white;
+        font-family: 'FiraCode';
+        font-size: 1.2vw;
+    }
+    .link-volver{
+        text-decoration: none;
+        color: #FFB437;
+        font-family: 'FiraCode';
+        font-size: 1.2vw;
+        font-weight: bolder;
+    }
+    .link-volver:hover{
+        color: #FFEE52;
+    }
+    .link-salida{
+        text-decoration: none;
+        color: #00FFFF;
+    }
+    .link-salida:hover{
+        color: #FFFC52;
+    }
+    .subtitulo-routes{
+        font-family: 'FiraCode-Bold';
+        margin: 2% 0% 2% 0%;
+        font-size: 1.2vw;
+    }
+    .contenido-text{
+        color: #F3F3F3;
+        line-height: 1.3;
+        font-size: 1.2vw;
+    }
+
+/* Creditos */
+
+    .staff-completo{
+        display: flex;
+        flex-direction: row;
+    }
+    .staff-nombres{
+        font-family: 'FiraCode';
+        font-size: 1.1vw;
+        color: #F3F3F3;
+    }
+    .staff-subtitulo{
+        font-family: 'FiraCode-Bold';
+        font-size: 1.5vw;
+        color: #CEE8ED;
+        margin: 2% 0% 2% 0%;
+    }
+    .staff-cargo{
+        font-family: 'FiraCode';
+        color: #F3F3F3;
+        font-size: 1.1vw;
+        margin: 3% 0% 1% 0%;
+        font-weight: bolder;
+    }
+    .h3-subtitulo-staff{
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+/* Version movil */
+    @media screen and (max-width: 1300px) {
+        .tachibana-logo{
+            height: 45px;
+        }
+        .proximamente{
+            font-size:18px;
+        }
+        .lain-gif{
+            height:340px;
+        }
+        .item{
+            font-size:16px;
+        }
+        footer p{
+            font-size:13px;
+        }
+        .subtitulo-routes{
+            font-size: 16px;
+        }
+        .staff-cargo{
+            font-size:14px;
+        }
+        .title{
+            font-size:32px;
+        }
+        .h3{
+            font-size:26px;
+        }
+        .contenido-text{
+            font-size:16px;
+        }
+        .h3 .h3-subtitulo{
+            font-size:16px;
+        }
+        .staff-subtitulo{
+            font-size:20px;
+        }
+        .staff-nombres{
+            font-size: 14px;
+        }
+        .subtitulo-routes{
+            font-size:14px;
+        }
+        
+
+    }
+    @media screen and (max-width: 900px) {
+        .medium{
+            margin: 0% 0% 0% 0%;
+            min-width: 100%;
+        }
+        .logo{
+            padding-top: 4%;
+        }
+        .lain-gif {
+            margin-top: 5%;
+            height: 90vw;
+	    max-height: 340px;
+        }
+        .tachibana-logo{
+            height: 45px;
+        }
+        .acceder{
+            font-size: 5vw;
+        }
+        .proximamente{
+            text-decoration: none;
+            color: white; 
+            font-size: 18px;
+            font-family: 'FiraCode-Bold';
+        }
+        .up-line {
+            padding: 1vw 4vw 1vw 4vw;
+        }
+        footer p {
+            font-size: 14px; 
+        }
+        .menu{
+            flex-direction: row;
+            padding: 4% 0% 10% 0%; 
+        }
+        .item{
+            font-size: 16px;
+        }
+        .contenido-text{
+            font-size: 16px;
+        }
+        .subtitulo-routes{
+            font-size: 17px;
+            margin: 3% 0% 3% 0%;
+        }
+
+        /* Rutas */
+        .contenido{
+            width: 90%;
+	    max-width: 650px;
+        }
+        .title{
+            font-size: 30px;
+            width: 90%;
+            padding-top: 2%;
+	    max-width: 650px;
+        }
+        h3{
+            font-size: 26px;
+            margin: 1% 0% 1% 0%; 
+        }
+        .top-menu{
+            width: 100%;
+	    max-width: 650px;
+        }
+        .volver{
+            margin-left: 1%;
+            margin-right: 0%;
+        }
+        .volver p{
+            font-size: 4vw;
+        }
+        .link-volver{
+            font-size: 4vw;
+        }
+        .top-menu img{
+            height: 5vw;
+        }
+        .h3-subtitulo{
+            font-size: 16px;
+        }
+        .h3-subtitulo-staff{
+            font-size: 4vw;
+        }
+        /* Creditos */
+
+        .staff-completo{
+            flex-direction: column;
+        }
+        .staff-cargo{
+            font-size: 13px;
+        }
+        .staff-nombres{
+            font-size: 13px;
+        }
+        .staff-izq{
+            text-align: center;
+        }
+        .staff-der{
+            text-align: center;
+        }
+        .staff-subtitulo{
+            font-size: 20px; 
+        }
+    }

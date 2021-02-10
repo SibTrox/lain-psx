@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Experiments Lain</title>
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/game.css">
+    <link rel="stylesheet" href="/stylesheets/game_enter.css">
+    <link rel="stylesheet" href="/stylesheets/audio_media.css">
+    <style>   
+        .medium{
+            height: 100%;
+            text-align: center;
+        }
+    </style>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <div class="up-line color-line">
+        <a class="top-menu" href="/game/{{LainResponse.URL.[0]}}">
+            <img src="/img/svg/Home.svg" id="logo-tachibana" onmouseover="TachibanaLogoSelected()" onmouseout="TachibanaLogoNotSelected()">
+        </a>
+    </div>
+    <div class="medium"> 
+        <div class="left-section">
+            <img src="/img/level_gifs/{{LainResponse.Gif}}" class="img-left-section">
+            <section class="info-left-section">
+                    <p class="subtitle-info"><b>ID: </b> {{LainResponse.ID}}</p>
+                    <p class="subtitle-info"><b>Ubicacion:</b> {{LainResponse.Ubicacion}}</p>
+                    <p class="subtitle-info"><b>Requiere:</b>{{LainResponse.Requiere}}</p>
+            </section>
+            <section class="foot-notes">
+                {{#each LainResponse.Diccionario}}
+                    <p><b>{{[0]}}</b> {{[1]}}</p>
+                {{/each}}            
+            </section>
+        </div>
+        <div class="right-section">
+            <section class="right-top-section">
+                <article class="archive-title">
+                    <p class="signos"> < </p>
+                    <p class="archive-name">{{LainResponse.ID}}</p>
+                    <p class="signos"> > </p>
+                </article>
+                <article class="archive-tags">
+                    <a href="#">{{LainResponse.Tags.[0]}}</a>
+                    <a href="#">{{LainResponse.Tags.[1]}}</a>
+                    <a href="#">{{LainResponse.Tags.[2]}}</a>
+                </article>
+            </section>
+            <hr class="hr">
+            <video controls class="video-controls">
+                <source src="/video/{{LainResponse.Video.[1]}}" type="video/mp4">
+                <track src="/video/Dc1040.vtt" kind="subtitles" srclang="es" label="Español">
+            </video>
+            <hr class="hr">
+            <section class="dialogos">
+                {{#each LainResponse.Dialogos}}
+                    <p class="name">{{[0]}}</p>
+                    <p class="text">{{[1]}}</p>
+                {{/each}}            
+            </section>
+        </div>
+    </div>
+    <footer class="bottom-line color-line">
+        <p style="color: white; text-align: center;">Traducción de LIF, ver créditos <a href="#" style="text-decoration: none; color: #FFB437;">Aquí</a></p>
+    </footer>
+</body>
+</html>

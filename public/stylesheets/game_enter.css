@@ -1,0 +1,243 @@
+@media screen and (min-width: 900px) {
+    .name {
+        margin-right: 0;
+        color: #FFB437;
+    }
+}
+
+/* Medium */
+.medium{
+    grid-template-columns: 0.3fr 0.7fr;
+}
+/* Left Section */
+.left-section{
+    padding: 0%;
+    width: 100%;
+}
+    /* Img left section */
+
+        .img-left-section{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            height: 17vw;
+        }
+
+    /* Info left section */
+
+        .info-left-section{
+            border-top: 2px solid #4B46C8;
+            border-bottom: 2px solid #4B46C8;
+            width: 90%;
+            padding: 5% 5% 5% 5%;
+        }
+        .subtitle-info{
+            text-align: left;
+            color: #D3D3D3;
+            font-family: 'FiraCode';
+            margin: 0.5% 0% 0.5% 0%;
+            font-size: 1.1vw;
+        }
+        .text-info{
+            margin-left: 0%;
+            font-size: 1vw;
+        }
+
+    /* Dictionary left section */
+
+        .foot-notes{
+            font-family: 'FiraSans-Regular';
+            font-size: 14px;
+            color: #d3d3d3;
+            width: 90%;
+            text-align: left;
+            margin-top: 2%;
+        }
+        .foot-notes p{
+            margin-top: 2%;
+        }
+
+/* Right Section */
+
+.hr{
+    margin: 0.5% 0% 0.5% 0%;
+}
+.archive-title{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.signos{
+    color: #FFB437;
+    font-family: "FiraCode-Bold";
+    font-size: 3vw;
+}
+.right-top-section{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 1% 0% 1% 0%;
+}
+.archive-name{
+    font-family: 'FiraCode';
+    color: white;
+    font-size: 3vw;
+    margin: 0% 5%;
+}
+.archive-name::first-letter{
+    color: #FFB437;
+    font-family: "FiraCode-Bold";
+}
+.archive-tags{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    align-self: center;
+}
+.archive-tags a{
+    font-family: 'FiraCode';
+    text-decoration: none;
+    color: #FFB437;
+    font-size: 1vw;
+}
+.archive-tags a:hover{
+    color: #FFEE52;
+}
+.audio-controls{
+    width: 90%;
+    height: 1.5vw;
+}
+.dialogos{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1vw;
+    grid-row-gap: 0.5vw;
+    margin-top: 5%;
+    width: 70%;
+    font-family: 'FiraSans-Regular';
+    font-size: 1.3vw;
+}
+.dialogos article{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.text{
+    color: #F3F3F3;
+    margin-left: 0;
+    text-align: left;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+}
+.video-controls{
+    width: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+    .archive-name{
+        font-size: 40px;
+    }
+    .signos{
+        font-size: 40px;
+    }
+    .archive-tags a{
+        font-size: 12px;
+    }
+    .audio-controls {
+        height: 2vw;
+    }
+    .name{
+        font-size: 17px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    .dialogos{
+        width: 80%;
+    }
+    .subtitle-info{
+        font-size: 14px;
+    }
+    .dictionary-left-section p {
+        font-size: 12px;
+    }
+    .img-left-section{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* Acomodo elementos */
+    .medium{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .right-section{
+        grid-area: 1 / 1 / 2 / 2;
+        margin-bottom: 8%;
+    }
+    .left-section{
+        grid-area: 2 / 1 / 3 / 2;
+        border-top: 2px solid #4B46C8;
+    }
+
+    /* Tamaños */
+    .archive-name {
+        font-size: 35px;
+    }
+    .signos{
+        font-size: 35px;
+    }
+    .archive-tags a {
+        font-size: 12px;
+    }
+    .audio-controls {
+        margin: 1%;
+        height: 25px;
+    }
+    .dialogos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 5%;
+        width: 70%;
+        font-family: 'FiraSans-Regular';
+        font-size: 1.3vw;
+        width: 80%;
+    }
+    .name{
+        color: #FFB437;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .img-left-section{
+        height: 200px;
+        margin-bottom: 2%;
+    }
+    .info-left-section{
+        width: 100%;
+        padding: 0%;
+        padding-bottom: 1%;
+        border-top: 0px solid #4B46C8;
+    }
+    .subtitle-info{
+        font-size: 15px;
+        text-align: center;
+    }
+    .foot-notes p {
+        font-size: 14px;
+    }
+    .foot-notes{
+        margin-bottom: 2%;
+    }
+}
