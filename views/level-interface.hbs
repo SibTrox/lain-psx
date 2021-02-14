@@ -25,21 +25,21 @@
     </div>
     <div class="medium"> 
         <div class="left-section">
-            <p href="#" class="sitio-a">Sitio A</p>
-            <a href="#" class="sitio-b">Sitio B</a>
+            <a href="/game/site-a/level-1" class="sitio-a">Sitio A</a>
+            <a href="/game/site-b/level-1" class="sitio-b">Sitio B</a>
             <div class="levels">
-                {{#for 1 22 1}}
-                    <a href="/game/level-{{@index}}{{this}}">{{@index}}{{this}}</a>
+                {{#for 1 numeroDeNiveles 1}}
+                    <a href="/game/{{../site}}/level-{{@index}}{{this}}">{{@index}}{{this}}</a>
                 {{/for}}
             </div>
             <img src="/img/game_gifs/01_03.gif" class="lain-gif" id="lain-gif">
         </div>
         <div class="right-section">
             <hr class="hr">
-            <img src="/img/levels_svg/spanish/lvl_04.svg" class="right-section-level">
+            <img src="/img/levels_svg/spanish/{{level}}.svg" class="right-section-level">
             <section class="archive-section">
                 {{#each LainResponse}}
-                <a class="archive" href="/game/{{URL.[0]}}/{{URL.[1]}}" id="{{Tipo}}" onmouseover="imgSelected(this);" onmouseout="imgNotSelected(this);">
+                <a class="archive" href="/game/{{../site}}/{{../level}}/{{ID}}" id="{{Tipo}}" onmouseover="imgSelected(this);" onmouseout="imgNotSelected(this);">
                     <img class="archive-image" src="/img/game_svg/normal/{{Tipo}}.svg" id="{{ID}}">
                     <p class="archive-link">{{ID}}</p>
                 </a>
@@ -51,7 +51,7 @@
         <img src="/img/game_gifs/01_04.gif" id="lain-gif-mobile-img">
     </div>
     <footer class="bottom-line color-line">
-        <p style="color: white; text-align: center;">Traducción de LIF, ver créditos <a href="#" style="text-decoration: none; color: #FFB437;">Aquí</a></p>
+        <p style="color: white; text-align: center;">Lif + Sib 2020</p> 
     </footer>
     <script src="/js/game.js"></script>
 </body>
