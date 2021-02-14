@@ -4,10 +4,11 @@ var router = express.Router();
 /* GET Home page */
 router.get('/', (req, res ,next) => res.render('index'));
 
-router.get('/routes', (req, res ,next) => res.render('routes'));
-
-router.get('/about', (req, res ,next) => res.render('about'));
-
-router.get('/credits', (req, res ,next) => res.render('credits'));
+router.get('/:zone', function(req, res, next) {
+    req.params.zone == "routes" ? res.render('routes') :
+    req.params.zone == "about" ? res.render('about') :
+    req.params.zone == "credits" ? res.render('credits') :
+    res.redirect('/')
+  });
 
 module.exports = router;
