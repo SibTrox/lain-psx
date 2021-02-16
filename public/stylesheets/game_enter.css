@@ -132,7 +132,8 @@
     white-space: -o-pre-wrap;
 }
 .video-controls{
-    width: 50%;
+    width: 90%;
+    margin: 1%;
 }
 
 @media screen and (max-width: 1300px) {
