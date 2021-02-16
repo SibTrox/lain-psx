@@ -25,8 +25,7 @@ html, body{
 }
 /* Tachibana logo en movimiento */
 .tachibana-logo-animado{
-    height: 87px;
-    width: 92px;
+    height: 3.5vw;
 }
 #ojo_izq,#ojo_der,#nucleo,#cuerpo,#punto_01,#punto_02,#punto_03 {
     fill: white;
@@ -145,7 +144,7 @@ transform-origin: 50% 43%;
     .acceder{
         text-decoration: none;
         color: #FFB437; 
-        font-size: 1.7vw;
+        font-size: 1.4vw;
         font-family: 'FiraCode-Bold';
     }
     .acceder:hover{
@@ -304,8 +303,11 @@ transform-origin: 50% 43%;
     }
 /* Version movil */
     @media screen and (max-width: 1300px) {
-        .tachibana-logo{
+        .tachibana-logo-animado{
             height: 45px;
+        }
+        .acceder{
+            font-size: 18px;
         }
         .proximamente{
             font-size:18px;
@@ -364,9 +366,6 @@ transform-origin: 50% 43%;
         }
         .tachibana-logo{
             height: 45px;
-        }
-        .acceder{
-            font-size: 5vw;
         }
         .proximamente{
             text-decoration: none;

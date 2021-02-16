@@ -15,8 +15,9 @@ app.set('view engine', 'hbs');
 //Helpers 
 Handlebars.registerHelper('for', function(from, to, incr, block) {
     var accum = '';
-    for(var i = from; i <= to; i += incr)
-        accum += block.fn(i);
+    for(var i = from; i >= to; i -= incr){
+        i < 10 ? accum += block.fn("0" + i.toString()) : accum += block.fn(i)
+    }
     return accum;
 });
 

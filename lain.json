@@ -1,6 +1,6 @@
 {
     "site-a" : {
-        "level-1" : {
+        "level-01" : {
             "Cou001" : {
                 "ID" : "Cou001",
                 "Ubicacion" : "Sitio A, Nivel 04, #14",
@@ -49,7 +49,7 @@
         }
     },
     "site-b" : {
-        "level-1" : {
+        "level-01" : {
             "Dc1040" : {
                 "ID" : "Dc1040",
                 "Ubicacion" : "Sitio A, Nivel 05, #13",

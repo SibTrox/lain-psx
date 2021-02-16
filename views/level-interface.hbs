@@ -25,10 +25,10 @@
     </div>
     <div class="medium"> 
         <div class="left-section">
-            <a href="/game/site-a/level-1" class="sitio-a">Sitio A</a>
-            <a href="/game/site-b/level-1" class="sitio-b">Sitio B</a>
+            <a href="/game/site-a/level-01" class="sitio-a">Sitio A</a>
+            <a href="/game/site-b/level-01" class="sitio-b">Sitio B</a>
             <div class="levels">
-                {{#for 1 numeroDeNiveles 1}}
+                {{#for numeroDeNiveles 1 1}}
                     <a href="/game/{{../site}}/level-{{@index}}{{this}}">{{@index}}{{this}}</a>
                 {{/for}}
             </div>
