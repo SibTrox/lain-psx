@@ -1,49 +1,238 @@
 {
     "site-a" : {
         "level-01" : {
-            "Cou001" : {
-                "ID" : "Cou001",
-                "Ubicacion" : "Sitio A, Nivel 04, #14",
+            "Tda001" : {
+                "ID" : "Tda001",
+                "Ubicacion" : "Sitio A, Nivel 01, #00",
+                "Misc" : "SW: 0, Q: 0, estado: visible, tipo: 2",
                 "Requiere" : "Nada",
-                "Revela" : "Cou002, Dia001",
-                "Tipo" : "Cou",
-                "Tags" : ["kind", "Obstacle", "black tea"],
-                "Audio" : [true, "Cou001.mp3"],
-                "Video" : [false],
-                "Gif" : "Cou001.gif",
-                "Dialogos" : {
-                    "1" : [ "Touko" , "Señora, usted puede esperar aquí en el vestíbulo por favor. Lain‑chan, no tienes de qué preocuparte. \nAdelante, puedes tomar asiento.\n¿Quieres un poco de jugo o algo para beber? \nNo tienes por qué estar nerviosa… \nVamos a ver, yo tengo sed, así que iré por un té, ¿quisieras un poco también? Es que se vería raro si lo tomo yo sola. Gracias. ¿Cuál te gustaría? Tengo muchos para elegir."],
-                    "2" : [ "Lain" , "El mismo que usted."],
-                    "3" : [ "Touko" , "¿Té negro? Está bien, aguarda un segundo. \nPuedes ponerle azúcar y leche si quieres. Aquí tienes. \nMh… ¿Y cómo podríamos empezar? Este de aquí es té Earl Grey, esta clase de té me gusta mucho."],
-                    "4" : [ "Lain" , "¿Earl Grey?"],
-                    "5" : [ "Touko" , "Sí, incluso con el té negro, hay de muchos tipos, con diferente aroma y diferente sabor."],
-                    "6" : [ "Lain" , "¿Sabe bien?"],
-                    "7" : [ "Touko" , "Mh, bueno, va con mi gusto, pero no sé si a ti te gustará. Si quieres, puedes darle un sorbo, y si no te gusta, puedo traer algo más para ti, ¿está bien? Toma."]
+                "Revela" : "Tda002, Tda003",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["graduation", "/game/site-a/level-11/Lda033"],
+                    "2" : ["takeshi" , "/game/site-a/level-1/Tda004"],
+                    "3" : ["love" , "/game/site-a/level-2/Tda011"]
                 },
-                "Diccionario" : {
-                    "1" : ["* Delirio de referencia.", "Implica darle excesiva importancia a eventos mundanos o a simples coincidencias, creyendo que todo está ligado a su destino."],
-                    "2" : ["Delirio persecutorio" , "(Véase Cou020)."],
-                    "3" : ["Esquizofrenia" , "(Véase Cou012)."],
-                    "4" : ["Síndrome del sabio." , "Talento o capacidad muy desarrollada en un campo aislado, comúnmente paralela al autismo u otras discapacidades mentales."]
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , 
+                            "Me graduaré después del próximo verano. Estoy feliz aunque también un poco triste.\n   Además, Takeshi‑san va a regresar a Japón un poco antes que yo. Bueno, supongo que no todo puede ser tan bueno como él. \n  Es un chico tan inteligente, que los promotores del centro de investigación ya hablan de asignarle un proyecto apenas esté de regreso.\n    ¡Diablos! De repente hablo como si estuviera celosa de él… Aunque sí me gustaría empezar mi propia investigación. Mhh… Ni modo, tengo que graduarme primero. Lo malo es que no estaré con Takeshi‑san durante la ceremonia de graduación."]
                 }
             },
-            "Cou002" : {
-                "ID" : "Cou002",
-                "Ubicacion" : "Sitio A, Nivel 04, #15",
-                "Requiere" : "Cou001",
-                "Revela" : "Cou003, Tda024",
-                "Tipo" : "Cou",
-                "Tags" : ["milk", "dislike", "consultation"],
-                "Audio" : [true, "Cou002.mp3"],
+            "Tda002" : {
+                "ID" : "Tda002",
+                "Ubicacion" : "Sitio A, Nivel 01, #01",
+                "Misc" : "SW: 0, Q: 1, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda001",
+                "Revela" : "Nada",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["cool", "/game/site-a/level-6/Tda037"],
+                    "2" : ["environment" , "/game/site-a/level-4/Tda023"],
+                    "3" : ["home" , "/game/site-a/level-1/Tda006"]
+                },
                 "Video" : [false],
-                "Gif" : "Cou002.gif",
                 "Dialogos" : {
-                    "1" : [ "Lain" , "Me revuelve el estómago."],
-                    "2" : [ "Touko" , "Jajaja, a decir verdad, cuando yo era niña tenía el mismo problema, así que era terrible cuando el almuerzo escolar incluía leche, aunque ahora puedo beberla."],
-                    "3" : [ "Lain" , "Pero en verdad me gusta…"],
-                    "4" : [ "Touko" , "¿Qué me dices de la leche que no revuelve tu estómago?"],
-                    "5" : [ "Lain" , "¿Ésa cuál es?"],
-                    "6" : [ "Touko" , "Olvidé cómo se llama, pero es leche que no revuelve tu estómago. La inventaron hace tiempo, y es fácil de conseguir. Si le dices a tu mamá, seguro que la buscará para ti."]
+                    "1" : [ "Touko" , 
+                            "Hoy el clima estuvo tan fresco que no parecía verano. Supongo que ahora mismo en Japón el clima está horrible. ¡No!, ¿por qué estoy pensando en Japón de repente?"]
+                }
+            },
+            "Tda003" : {
+                "ID" : "Tda003",
+                "Ubicacion" : "Sitio A, Nivel 01, #09",
+                "Misc" : "SW: 0, Q: 1, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda001",
+                "Revela" : "Tda004",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["cake", "/game/site-a/level-8/Lda016"],
+                    "2" : ["suppression" , "/game/site-a/level-7/TaK025"],
+                    "3" : ["diet" , "/game/site-a/level-7/TaK027"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , 
+                        "Mañana habrá una fiesta en la casa de un amigo, así que preparé un pastel de manzana.\n    Takeshi‑san lo probó y me dijo: “con un sabor tan dulce todos lo disfrutarán a excepción de mí. Tu repostería se ha vuelto muy occidental”, ¡aunque todo en broma! \n    Es cierto que en comparación con los postres de América, los japoneses suelen llevar menos azúcar. Pero ahora siento que sería incorrecto si no los preparo de esta manera, sin mencionar que ya le agarré el gusto a los dulces de aquí, jeje. Aunque sería malo si regreso a Japón y ya no disfruto los dulces de allá.\n    De seguir así podría engordar, y así no le gustaría a Takeshi‑san. ¡Mañana tendré que empezar otra dieta! Jajaja."]
+                }
+            },
+            "Tda004" : {
+                "ID" : "Tda004",
+                "Ubicacion" : "Sitio A, Nivel 01, #10",
+                "Misc" : "SW: 0, Q: 1, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda003",
+                "Revela" : "Tda005",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["wish", "/game/site-b/level-3/Tda055"],
+                    "2" : ["takeshi" , "/game/site-a/level-3/Tda014"],
+                    "3" : ["as it is" , "/game/site-a/level-19/TaK158"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , 
+                            "Mhh… Ya casi es Halloween otra vez. Éste será mi último Halloween aquí.\n  Recuerdo que me tomó por sorpresa el primer año. Gente disfrazada día y noche, yendo a comer y de compras, pero con un disfraz. Antes pensaba que sólo salían así por la noche para asustar a la gente.\n   Yo también solía salir disfrazada con mis colegas de la universidad. Aun así, no recuerdo que Takeshi‑san hicera esas cosas. Quizá le daba pena, y por eso no lo hacía, jeje.\n    Sería divertido si pudiéramos disfrazarnos a juego.\n    Mhh… Me pregunto qué clase de atuendo llevaré este año. En todo caso, viendo las calabazas, y a las familias que pasan horas tallándolas, a veces quisiera quedarme aquí a vivir con Takeshi‑san.\n    ¡Yo y mis fantasías otra vez!"]
+                }
+            },
+            "Tda005" : {
+                "ID" : "Tda005",
+                "Ubicacion" : "Sitio A, Nivel 01, #18",
+                "Misc" : "SW: 0, Q: 1, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda004",
+                "Revela" : "Tda006",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["look back on", "/game/site-a/level-14/Dc1017"],
+                    "2" : ["lonely" , "/game/site-b/level-11/Cou052"],
+                    "3" : ["in the future" , "/game/site-a/level-7/TaK026"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , 
+                            "Hoy fui a caminar con Takeshi‑san por el Río Charles. No había reflexionado sobre los cuatro años que llevo aquí.\n    Al principio estaba nerviosa, y no me sentía muy a gusto, pero cuando conocí a Takeshi‑san todo fue mejorando. Por entonces no pensaba en nada romántico, pero nunca fue lindo estar sola.\n    Cuando te sientes triste quieres que alguien esté cerca de ti… pero eso no significa que debas buscar un novio sin pensarlo sólo que estás triste. Aparte, he pasado malos ratos por hacer eso… Pero Takeshi‑san es diferente. Me siento segura tan sólo estando con él. Creo que es la primera vez que siento algo como esto.\n    Takeshi‑san regresará pronto a Japón y entrará al centro de investigación. ¿Y yo qué quiero hacer? Sí es cierto… Me gustaría trabajar en el mismo centro que él."]
+                }
+            },
+            "Tda006" : {
+                "ID" : "Tda006",
+                "Ubicacion" : "Sitio A, Nivel 01, #19",
+                "Misc" : "SW: 0, Q: 1, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda005",
+                "Revela" : "Tda007",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["home", "/game/site-b/level-7/Lda197"],
+                    "2" : ["state" , "/game/site-a/level-5/Cou006"],
+                    "3" : ["pleasant" , "/game/site-a/level-16/Lda084"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , 
+                            "¡Y así se va otro año! Takeshi‑san se irá pronto, y en un par de días ya estará en Japón. Yo regresaré hasta que me gradúe, así que aún me quedan tres meses más. Me inquieta saber que estaremos lejos por un tiempo, aunque será poco.\n    Me pregunto si él estará bien… Pero la buena noticia es que en Japón trabajaremos en el mismo centro de investigación. Intentaré disfrutar del resto de mi tiempo como estudiante.\n     Antes de año nuevo, viene la víspera de fin de año, así que aún quedan muchos eventos.\n    Este año pasé mucho tiempo con Takeshi‑san… y ahora pasaré varios días sin él… En fin… supongo que con Mary a mi lado no me sentiré sola…"]
+                }
+            },
+            "Ekm001" : {
+                "ID" : "Ekm001",
+                "Ubicacion" : "Sitio A, Nivel 01, #16",
+                "Misc" : "SW: 0, Q: 2, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Ekm002",
+                "Info" : "DATA of CLN01\nauthorized_il\ntalking_F#00021\nftp/tl.S_server",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["action", "/game/site-b/level-5/Ere008"],
+                    "2" : ["oral" , "/game/site-a/level-14/Lda062"],
+                    "3" : ["feeling" , "/game/site-a/level-3/TaK126"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Kyoko" , "Lain, vamos juntas a casa, quiero comprar algo de paso."],
+                    "2" : [ "Lain" , "Claro… Si tú quieres, Kyoko‑chan…"],
+                    "3" : [ "Kyoko" , "¡Voy a comprar un nuevo labial!"],
+                    "4" : [ "Lain" , "Pero la profesora te volverá a regañar por usar labial…"],
+                    "5" : [ "Kyoko" , "Eres muy rígida Lain. ¡También deberías probarlo!, te quedaría bien."],
+                    "6" : [ "Lain" , "Descuida, no tiene caso que yo intente ser linda."],
+                    "7" : [ "Kyoko" , "¡Eso no es cierto! Yo pienso que eres muy linda, ¡Usémoslo ambas!."],
+                    "8" : [ "Lain" , "Bueno…"]
+                }
+            },
+            "Dc1009" : {
+                "ID" : "Dc1009",
+                "Ubicacion" : "Sitio A, Nivel 01, #04",
+                "Misc" : "SW: 2, Q: 0, Estado: visible, Tipo: 3",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "DATA of CLN01\nauthorized_il\nactive_file:lv\nftp/tl.S_server",
+                "Tipo" : "Dc",
+                "Tags" : {
+                    "1" : ["exercise", "/game/site-a/level-5/Cou007"],
+                    "2" : ["be active" , "/game/site-a/level-2/Ekm004"],
+                    "3" : ["memories" , "/game/site-a/level-12/Cou030"]
+                },
+                "Video" : [true]
+            },
+            "TaK001" : {
+                "ID" : "TaK001",
+                "Ubicacion" : "Sitio A, Nivel 01, #12",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["milk", "/game/site-a/level-4/Cou002"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Quiero tomar leche."]
+                }
+            },
+            "TaK002" : {
+                "ID" : "TaK002",
+                "Ubicacion" : "Sitio A, Nivel 01, #14",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["position", "/game/site-a/level-9/TaK033"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Odio estar sola."]
+                }
+            },
+            "TaK003" : {
+                "ID" : "TaK003",
+                "Ubicacion" : "Sitio A, Nivel 01, #20",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["time", "/game/site-a/level-9/TaK035"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Juega sólo conmigo."]
+                }
+            },
+            "TaK004" : {
+                "ID" : "TaK004",
+                "Ubicacion" : "Sitio A, Nivel 01, #21",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["lunch", "/game/site-a/level-5/Tda029"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "¿Qué es lo que te molesta?"]
+                }
+            },
+            "TaK005" : {
+                "ID" : "TaK005",
+                "Ubicacion" : "Sitio A, Nivel 01, #23",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["constancy", "/game/site-a/level-16/Lda085"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Es divertido estar vivo."]
                 }
             }
         }

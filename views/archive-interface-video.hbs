@@ -24,11 +24,13 @@
     </div>
     <div class="medium"> 
         <div class="left-section">
-            <img src="/img/level_gifs/{{LainResponse.Gif}}" class="img-left-section">
+            <img src="/img/level_gifs/{{LainResponse.ID}}.gif" class="img-left-section">
             <section class="info-left-section">
                     <p class="subtitle-info"><b>ID: </b> {{LainResponse.ID}}</p>
                     <p class="subtitle-info"><b>Ubicacion:</b> {{LainResponse.Ubicacion}}</p>
-                    <p class="subtitle-info"><b>Requiere:</b>{{LainResponse.Requiere}}</p>
+                    <p class="subtitle-info"><b>Requiere:</b> {{LainResponse.Requiere}}</p>
+                    <p class="subtitle-info"><b>Revela:</b> {{LainResponse.Revela}}</p>
+                    <p class="subtitle-info"><b>Info:</b> {{LainResponse.Info}}</p>
             </section>
             <section class="foot-notes">
                 {{#each LainResponse.Diccionario}}
@@ -44,15 +46,15 @@
                     <p class="signos"> > </p>
                 </article>
                 <article class="archive-tags">
-                    <a href="#">{{LainResponse.Tags.[0]}}</a>
-                    <a href="#">{{LainResponse.Tags.[1]}}</a>
-                    <a href="#">{{LainResponse.Tags.[2]}}</a>
+                    {{#each LainResponse.Tags}}
+                        <a href="{{[1]}}">{{[0]}}</a>
+                    {{/each}}
                 </article>
             </section>
             <hr class="hr">
             <video controls class="video-controls">
-                <source src="/video/{{LainResponse.Video.[1]}}" type="video/mp4">
-                <track src="/video/Dc1040.vtt" kind="subtitles" srclang="es" label="Español">
+                <source src="/video/{{LainResponse.ID}}.mp4" type="video/mp4">
+                <track src="/video/{{LainResponse.ID}}.vtt" kind="subtitles" srclang="es" label="Español">
             </video>
         </div>
     </div>
