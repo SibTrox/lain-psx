@@ -239,16 +239,144 @@
     },
     "site-b" : {
         "level-01" : {
-            "Dc1040" : {
-                "ID" : "Dc1040",
-                "Ubicacion" : "Sitio A, Nivel 05, #13",
+            "Lda151" : {
+                "ID" : "Lda151",
+                "Ubicacion" : "Sitio B, Nivel 01, #05",
+                "Misc" : "SW: 3, Q: 0, Estado: visible, Tipo: 2",
                 "Requiere" : "Nada",
+                "Revela" : "Lda152",
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["impulse", "game/site-a/level-8/TaK028"],
+                    "2" : ["obstacle" , "game/site-b/level-7/Lda193"],
+                    "3" : ["father" , "game/site-b/level-1/Lda155"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Papá y mamá volvieron a pelear. Discutieron acerca de mí. Me sentí tan mal que ni siquiera pude permanecer ahí, así que me fui a mi cuarto, pero papá se preocupó y vino a ver cómo estaba. Mientras se disculpaba conmigo… lo vi llorar."],
+                    "2" : [ "" , "¿Por qué se disculpó? ¿No era mi culpa? Yo soy quien debería disculparse."],
+                    "3" : [ "" , "Lo siento, papá."]
+                }
+            },
+            "Lda152" : {
+                "ID" : "Lda152",
+                "Ubicacion" : "Sitio B, Nivel 01, #06",
+                "Misc" : "SW: 3, Q: 0, Estado: oculto, Tipo: 2",
+                "Requiere" : "Lda151",
                 "Revela" : "Nada",
-                "Tipo" : "Dc",
-                "Tags" : ["moving", "chaos", "prompt"],
-                "Audio" : [true, "Cou001.mp3"],
-                "Video" : [true, "Dc1040.mp4"],
-                "Gif" : "Dc1040.gif"
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["bed", "game/site-b/level-7/TaK106"],
+                    "2" : ["smell" , "game/site-b/level-11/Lda220"],
+                    "3" : ["abnormal" , "game/site-b/level-3/Lda169"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "¿En serio soy una mala persona? ¿Qué hay de malo conmigo?"]
+                }
+            },
+            "Lda153" : {
+                "ID" : "Lda153",
+                "Ubicacion" : "Sitio B, Nivel 01, #14",
+                "Misc" : "SW: 3, Q: 0, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Lda154",
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["bed", "game/site-b/level-7/TaK106"],
+                    "2" : ["smell" , "game/site-b/level-11/Lda220"],
+                    "3" : ["abnormal" , "game/site-b/level-3/Lda169"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "¿Pero qué me pasó? Cuando me desperté estaba sobre mi cama. Pensé que todo iba bien, ¿pero acaso falté a la escuela? ¿Me desmallé? No puedo recordar nada aparte de ir camino a la escuela. Cuando le pregunté a mamá, no me respondió."],
+                    "2" : [ "" , "Creo que algo huele a sangre. ¿Qué me pasó? Otra vez puedo ver alucinaciones, escucho toda clase de voces. Mi mente está enferma de nuevo."],
+                    "3" : [ "" , "No estoy curada, hay algo malo conmigo. Tengo que ver a Touko‑san."]
+                }
+            },
+            "Lda154" : {
+                "ID" : "Lda154",
+                "Ubicacion" : "Sitio B, Nivel 01, #15",
+                "Misc" : "SW: 4, Q: 0, Estado: oculto, Tipo: 2",
+                "Requiere" : "Lda153",
+                "Revela" : "Nada",
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["record", "game/site-b/level-13/Lda236"],
+                    "2" : ["prompt" , "game/site-b/level-6/Tda072"],
+                    "3" : ["chaos" , "game/site-a/level-13/TaK145"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Cuando pensé que ya estaba bien… ¿Qué me pasó? ¿Por qué no recuerdo nada?"],
+                    "2" : [ "" , "Creo que algo huele a sangre. ¿Qué me pasó? Otra vez puedo ver alucinaciones, escucho toda clase de voces. Mi mente está enferma de nuevo."],
+                    "3" : [ "" , "Hay una neblina en mi mente como si hubiera un corto circuito. Todo está revuelto y no entiendo nada."]
+                }
+            },
+            "Lda155" : {
+                "ID" : "Lda155",
+                "Ubicacion" : "Sitio B, Nivel 01, #23",
+                "Misc" : "SW: 3, Q: 0, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Lda156",
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["whereabouts", "game/site-b/level-5/Lda183"],
+                    "2" : ["father" , "game/site-b/level-2/Lda164"],
+                    "3" : ["proof" , "game/site-b/level-6/Cou043"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Mamá envió a mi escuela un aviso de ausencia temporal. Aunque pensé que me alegraría poder faltar a clases… Estoy triste. Acabo de ser aislada del mundo. Es triste pensar que todos me rechazan. ¿Ya no puedo tener una vida normal?"],
+                    "2" : [ "" , "Papá no ha vuelto a casa, y mamá se ve desanimada. ¿Por qué papá no viene a casa? ¿Acaso no quiere verme? ¿Acaso papá no me quiere? Yo quiero verlo."],
+                    "3" : [ "" , "Cuando me canso de tanto llorar y me quedo dormida, vuelvo a alucinar. Tengo miedo, puedo “verlos” aunque no esté dormida. Ya no puedo creer ni en mí misma, no lo entiendo."],
+                    "4" : [ "" , "Quiero que me demuestren que soy yo misma, quiero ver pruebas. ¡Quiero ver a mi papá! Quiero que me abrace y me diga: “todo está bien”…"]
+                }
+            },
+            "Lda156" : {
+                "ID" : "Lda156",
+                "Ubicacion" : "Sitio B, Nivel 01, #16",
+                "Misc" : "SW: 4, Q: 0, Estado: oculto, Tipo: 2",
+                "Requiere" : "Lda155",
+                "Revela" : "Nada",
+                "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
+                "Tipo" : "Lda",
+                "Tags" : {
+                    "1" : ["life", "game/site-b/level-5/Lda186"],
+                    "2" : ["cause" , "game/site-b/level-11/Lda221"],
+                    "3" : ["self-rating" , "game/site-b/level-10/Dia044"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "¿Lain vuelve tristes a sus seres queridos? ¿Es porque saben que los quiero?"]
+                }
+            },
+            "Tda001" : {
+                "ID" : "Tda001",
+                "Ubicacion" : "Sitio A, Nivel 01, #00",
+                "Misc" : "SW: 0, Q: 0, estado: visible, tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Tda002, Tda003",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["instrument", "game/site-a/level-14/Dc1017"],
+                    "2" : ["complaint" , "game/site-b/level-6/Tda072"],
+                    "3" : ["health imple" , "game/site-b/level-2/Tda052"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "¡Oh, qué sorpresa! Encontrarme a Yoshida‑kun en un lugar como ése. Siempre pensé que sería raro para un hombre ir a comprar ropa por su cuenta, o quizá estaba de compras con su novia… Pero sí, me dio mucha pena verlo… aunque fue agradable poder hablar con él, y al final no pasó nada malo."],
+                    "2" : [ "" , "Por otra parte, supongo que he estado estresada últimamente. Seguro se me soltó la lengua hablando con Yoshida‑kun, y creo que lo incomodé. Aunque ya no tiene caso arrepentirme."],
+                    "3" : [ "" , "Yoshida‑kun luce bastante maduro para su edad, lo cual me sorprende… bueno, tampoco es tan maduro como Takeshi‑san."],
+                    "4" : [ "" , "“Touko‑san, luces agotada”, sus palabras fueron amables, y me hizo sentir conmovida. No, no. Yoshida‑kun sólo se estaba portando amable."],
+                    "5" : [ "" , "Cierto… puede ser que su novia lo viera platicando conmigo y se enojase con él. ¡Ah! Se ve tan amigable en el laboratorio… y dijo que va a estar trayendo algunos aparatos médicos en estos días. También dijo que traería un aparato para aliviar el estrés. Creo que le echaré un vistazo."]
+                }
             }
         }
     }
