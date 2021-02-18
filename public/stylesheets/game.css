@@ -47,11 +47,12 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        width: 60%;
+        width: 85%;
     }
     .top-menu img{
         height: 2vw;
         min-height: 27px;
+        margin-right: 2.5%;
     }
 
 /* Medium */
@@ -253,11 +254,18 @@
             font-size: 3.5vw;
         }
         .up-line {
-            padding: 2vw 4vw 2vw 4vw;
+            padding: 2vw 0vw 2vw 0vw;
+        }
+        .top-menu {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 100%;
         }
         .top-menu img{
             height: 5vw;
             min-height: 27px;
+            margin-right: 20px;
         }
         .medium { 
             display: grid;

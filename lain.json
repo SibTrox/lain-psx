@@ -11,8 +11,8 @@
                 "Tipo" : "Tda",
                 "Tags" : {
                     "1" : ["graduation", "/game/site-a/level-11/Lda033"],
-                    "2" : ["takeshi" , "/game/site-a/level-1/Tda004"],
-                    "3" : ["love" , "/game/site-a/level-2/Tda011"]
+                    "2" : ["takeshi" , "/game/site-a/level-01/Tda004"],
+                    "3" : ["love" , "/game/site-a/level-02/Tda011"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -29,9 +29,9 @@
                 "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
                 "Tipo" : "Tda",
                 "Tags" : {
-                    "1" : ["cool", "/game/site-a/level-6/Tda037"],
-                    "2" : ["environment" , "/game/site-a/level-4/Tda023"],
-                    "3" : ["home" , "/game/site-a/level-1/Tda006"]
+                    "1" : ["cool", "/game/site-a/level-06/Tda037"],
+                    "2" : ["environment" , "/game/site-a/level-04/Tda023"],
+                    "3" : ["home" , "/game/site-a/level-01/Tda006"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -48,9 +48,9 @@
                 "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
                 "Tipo" : "Tda",
                 "Tags" : {
-                    "1" : ["cake", "/game/site-a/level-8/Lda016"],
-                    "2" : ["suppression" , "/game/site-a/level-7/TaK025"],
-                    "3" : ["diet" , "/game/site-a/level-7/TaK027"]
+                    "1" : ["cake", "/game/site-a/level-08/Lda016"],
+                    "2" : ["suppression" , "/game/site-a/level-07/TaK025"],
+                    "3" : ["diet" , "/game/site-a/level-07/TaK027"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -67,8 +67,8 @@
                 "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
                 "Tipo" : "Tda",
                 "Tags" : {
-                    "1" : ["wish", "/game/site-b/level-3/Tda055"],
-                    "2" : ["takeshi" , "/game/site-a/level-3/Tda014"],
+                    "1" : ["wish", "/game/site-b/level-03/Tda055"],
+                    "2" : ["takeshi" , "/game/site-a/level-03/Tda014"],
                     "3" : ["as it is" , "/game/site-a/level-19/TaK158"]
                 },
                 "Video" : [false],
@@ -88,7 +88,7 @@
                 "Tags" : {
                     "1" : ["look back on", "/game/site-a/level-14/Dc1017"],
                     "2" : ["lonely" , "/game/site-b/level-11/Cou052"],
-                    "3" : ["in the future" , "/game/site-a/level-7/TaK026"]
+                    "3" : ["in the future" , "/game/site-a/level-07/TaK026"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -105,8 +105,8 @@
                 "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
                 "Tipo" : "Tda",
                 "Tags" : {
-                    "1" : ["home", "/game/site-b/level-7/Lda197"],
-                    "2" : ["state" , "/game/site-a/level-5/Cou006"],
+                    "1" : ["home", "/game/site-b/level-07/Lda197"],
+                    "2" : ["state" , "/game/site-a/level-05/Cou006"],
                     "3" : ["pleasant" , "/game/site-a/level-16/Lda084"]
                 },
                 "Video" : [false],
@@ -124,9 +124,9 @@
                 "Info" : "DATA of CLN01\nauthorized_il\ntalking_F#00021\nftp/tl.S_server",
                 "Tipo" : "TaK",
                 "Tags" : {
-                    "1" : ["action", "/game/site-b/level-5/Ere008"],
+                    "1" : ["action", "/game/site-b/level-05/Ere008"],
                     "2" : ["oral" , "/game/site-a/level-14/Lda062"],
-                    "3" : ["feeling" , "/game/site-a/level-3/TaK126"]
+                    "3" : ["feeling" , "/game/site-a/level-03/TaK126"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -149,8 +149,8 @@
                 "Info" : "DATA of CLN01\nauthorized_il\nactive_file:lv\nftp/tl.S_server",
                 "Tipo" : "Dc",
                 "Tags" : {
-                    "1" : ["exercise", "/game/site-a/level-5/Cou007"],
-                    "2" : ["be active" , "/game/site-a/level-2/Ekm004"],
+                    "1" : ["exercise", "/game/site-a/level-05/Cou007"],
+                    "2" : ["be active" , "/game/site-a/level-02/Ekm004"],
                     "3" : ["memories" , "/game/site-a/level-12/Cou030"]
                 },
                 "Video" : [true]
@@ -164,7 +164,7 @@
                 "Info" : "-",
                 "Tipo" : "TaK",
                 "Tags" : {
-                    "1" : ["milk", "/game/site-a/level-4/Cou002"]
+                    "1" : ["milk", "/game/site-a/level-04/Cou002"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -180,7 +180,7 @@
                 "Info" : "-",
                 "Tipo" : "TaK",
                 "Tags" : {
-                    "1" : ["position", "/game/site-a/level-9/TaK033"]
+                    "1" : ["position", "/game/site-a/level-09/TaK033"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -196,7 +196,7 @@
                 "Info" : "-",
                 "Tipo" : "TaK",
                 "Tags" : {
-                    "1" : ["time", "/game/site-a/level-9/TaK035"]
+                    "1" : ["time", "/game/site-a/level-09/TaK035"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -212,7 +212,7 @@
                 "Info" : "-",
                 "Tipo" : "TaK",
                 "Tags" : {
-                    "1" : ["lunch", "/game/site-a/level-5/Tda029"]
+                    "1" : ["lunch", "/game/site-a/level-05/Tda029"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -248,9 +248,9 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["impulse", "game/site-a/level-8/TaK028"],
-                    "2" : ["obstacle" , "game/site-b/level-7/Lda193"],
-                    "3" : ["father" , "game/site-b/level-1/Lda155"]
+                    "1" : ["impulse", "/game/site-a/level-08/TaK028"],
+                    "2" : ["obstacle" , "/game/site-b/level-07/Lda193"],
+                    "3" : ["father" , "/game/site-b/level-01/Lda155"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -268,9 +268,9 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["bed", "game/site-b/level-7/TaK106"],
-                    "2" : ["smell" , "game/site-b/level-11/Lda220"],
-                    "3" : ["abnormal" , "game/site-b/level-3/Lda169"]
+                    "1" : ["bed", "/game/site-b/level-07/TaK106"],
+                    "2" : ["smell" , "/game/site-b/level-11/Lda220"],
+                    "3" : ["abnormal" , "/game/site-b/level-03/Lda169"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -286,9 +286,9 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["bed", "game/site-b/level-7/TaK106"],
-                    "2" : ["smell" , "game/site-b/level-11/Lda220"],
-                    "3" : ["abnormal" , "game/site-b/level-3/Lda169"]
+                    "1" : ["bed", "/game/site-b/level-07/TaK106"],
+                    "2" : ["smell" , "/game/site-b/level-11/Lda220"],
+                    "3" : ["abnormal" , "/game/site-b/level-03/Lda169"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -306,9 +306,9 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["record", "game/site-b/level-13/Lda236"],
-                    "2" : ["prompt" , "game/site-b/level-6/Tda072"],
-                    "3" : ["chaos" , "game/site-a/level-13/TaK145"]
+                    "1" : ["record", "/game/site-b/level-13/Lda236"],
+                    "2" : ["prompt" , "/game/site-b/level-06/Tda072"],
+                    "3" : ["chaos" , "/game/site-a/level-13/TaK145"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -326,9 +326,9 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["whereabouts", "game/site-b/level-5/Lda183"],
-                    "2" : ["father" , "game/site-b/level-2/Lda164"],
-                    "3" : ["proof" , "game/site-b/level-6/Cou043"]
+                    "1" : ["whereabouts", "/game/site-b/level-05/Lda183"],
+                    "2" : ["father" , "/game/site-b/level-02/Lda164"],
+                    "3" : ["proof" , "/game/site-b/level-06/Cou043"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -347,27 +347,66 @@
                 "Info" : "lain's_DIARY\nanonymous_user\nactive_file:\nftp/tl.L_server",
                 "Tipo" : "Lda",
                 "Tags" : {
-                    "1" : ["life", "game/site-b/level-5/Lda186"],
-                    "2" : ["cause" , "game/site-b/level-11/Lda221"],
-                    "3" : ["self-rating" , "game/site-b/level-10/Dia044"]
+                    "1" : ["life", "/game/site-b/level-05/Lda186"],
+                    "2" : ["cause" , "/game/site-b/level-11/Lda221"],
+                    "3" : ["self-rating" , "/game/site-b/level-10/Dia044"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
                     "1" : [ "Lain" , "¿Lain vuelve tristes a sus seres queridos? ¿Es porque saben que los quiero?"]
                 }
             },
-            "Tda001" : {
-                "ID" : "Tda001",
-                "Ubicacion" : "Sitio A, Nivel 01, #00",
-                "Misc" : "SW: 0, Q: 0, estado: visible, tipo: 2",
+            "Tda045" : {
+                "ID" : "Tda045",
+                "Ubicacion" : "Sitio B, Nivel 01, #03",
+                "Misc" : "SW: 0, Q: 0, Estado: visible, Tipo: 2",
                 "Requiere" : "Nada",
-                "Revela" : "Tda002, Tda003",
+                "Revela" : "Tda046",
                 "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
                 "Tipo" : "Tda",
                 "Tags" : {
-                    "1" : ["instrument", "game/site-a/level-14/Dc1017"],
-                    "2" : ["complaint" , "game/site-b/level-6/Tda072"],
-                    "3" : ["health imple" , "game/site-b/level-2/Tda052"]
+                    "1" : ["yoshida", "/game/site-b/level-03/Tda056"],
+                    "2" : ["smile" , "/game/site-a/level-16/Dc1007"],
+                    "3" : ["glad" , "/game/site-a/level-07/Cou017"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "Hoy conocí a un chico que a veces repara nuestro equipo médico, su nombre es Yoshida‑kun. Parece ser un poco más joven que yo, pero me sorprendió su madurez."],
+                    "2" : [ "" , "Me pareció un poco lindo, y nos estuvimos mirando por un rato. Me sentí feliz tan sólo por poder sonreírle a alguien para variar, quizá porque no estoy acostumbrada a eso, especialmente en el trabajo. Probablemente le gusto, jejeje. ¡Lo siento por ti!, yo le pertenezco a Takeshi‑san."]
+                }
+            },
+            "Tda046" : {
+                "ID" : "Tda046",
+                "Ubicacion" : "Sitio B, Nivel 01, #04",
+                "Misc" : "SW: 0, Q: 0, Estado: oculto, Tipo: 2",
+                "Requiere" : "Tda045",
+                "Revela" : "Nada",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["fact", "/game/site-b/level-06/Cou043"],
+                    "2" : ["condition" , "/game/site-b/level-03/Tda057"],
+                    "3" : ["intrapsychic" , "/game/site-a/level-07/Cou017"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "Sé que debería decirle que ya tengo a alguien más, pero no quiero decírselo, aunque sé que no es bueno ocultarlo."],
+                    "2" : [ "" , "Esto es malo… mientras me siga sintiendo insegura sobre Takeshi‑san, peor me sentiré en general."],
+                    "3" : [ "" , "No está bien… Una consejera no debería portarse así. Tengo que atender mis asuntos antes de ayudar a Lain."]
+                }
+            },
+            "Tda047" : {
+                "ID" : "Tda047",
+                "Ubicacion" : "Sitio B, Nivel 01, #10",
+                "Misc" : "SW: 0, Q: 0, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["instrument", "/game/site-a/level-14/Dc1017"],
+                    "2" : ["complaint" , "/game/site-b/level-06/Tda072"],
+                    "3" : ["health imple" , "/game/site-b/level-02/Tda052"]
                 },
                 "Video" : [false],
                 "Dialogos" : {
@@ -376,6 +415,120 @@
                     "3" : [ "" , "Yoshida‑kun luce bastante maduro para su edad, lo cual me sorprende… bueno, tampoco es tan maduro como Takeshi‑san."],
                     "4" : [ "" , "“Touko‑san, luces agotada”, sus palabras fueron amables, y me hizo sentir conmovida. No, no. Yoshida‑kun sólo se estaba portando amable."],
                     "5" : [ "" , "Cierto… puede ser que su novia lo viera platicando conmigo y se enojase con él. ¡Ah! Se ve tan amigable en el laboratorio… y dijo que va a estar trayendo algunos aparatos médicos en estos días. También dijo que traería un aparato para aliviar el estrés. Creo que le echaré un vistazo."]
+                }
+            },
+            "Tda048" : {
+                "ID" : "Tda048",
+                "Ubicacion" : "Sitio B, Nivel 01, #19",
+                "Misc" : "SW: 1, Q: 0, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "TOUKO's_DIARY\nauthorized_il\ndecoded file:t\nftp/tl.S_server",
+                "Tipo" : "Tda",
+                "Tags" : {
+                    "1" : ["misunderstand", "/game/site-b/level-06/Lda188"],
+                    "2" : ["individuality" , "/game/site-b/level-03/Tda055"],
+                    "3" : ["personality" , "/game/site-a/level-20/Cou036"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "Justo cuando pensé que podría conocer a Yoshida‑kun, ¡lo arruiné! Dijo que sólo estaba esperando en el centro comercial a la persona a cargo del equipo médico. Oh, soy una persona tan descuidada, lo único que pude hacer es disculparme. Yoshida‑kun debe haberse enojado. ¡Agh!, hice algo vergonzoso otra vez."],
+                    "2" : [ "" , "Y hoy sólo vino a traer el equipo médico que ya me había mencionado."],
+                    "3" : [ "" , "La máquina para aliviar el estrés parece un juguete que da pulsaciones. Es de un fabricante que no conozco, así que tengo mis dudas… Se supone que funciona mejor si lo ocupas a diario y no sólo cuando estás agotada. ¡Bien!, creo que comenzaré a usarlo esta noche."],
+                    "4" : [ "" , "Apuesto a que Yoshida‑kun consigue pareja fácilmente. Es un chico muy atractivo, y es alto. Cuando viene al laboratorio, todas las mujeres parecen realmente percatarse de él."],
+                    "5" : [ "" , "Oh, diablos, no… ¿Qué estoy pensando? Yo ya tengo a Takeshi‑san. Ahh… Quiero ver a Takeshi‑san."]
+                }
+            },
+            "Dc1025" : {
+                "ID" : "Dc1025",
+                "Ubicacion" : "Sitio A, Nivel 01, #04",
+                "Misc" : "SW: 2, Q: 0, Estado: visible, Tipo: 3",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "DATA of CLN01\nauthorized_il\nactive_file:lv\nftp/tl.S_server",
+                "Tipo" : "Dc",
+                "Tags" : {
+                    "1" : ["expression", "/game/site-b/level-13/Dc1057"],
+                    "2" : ["expression" , "/game/site-b/level-12/Dia048"],
+                    "3" : ["body" , "/game/site-a/level-09/Lda017"]
+                },
+                "Video" : [true]
+            },
+            "TaK091" : {
+                "ID" : "TaK091",
+                "Ubicacion" : "Sitio B, Nivel 01, #12",
+                "Misc" : "SW: 0, Q: 5, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["result", "/game/site-b/level-09/Dc1033"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Tengo… un poco de sueño."]
+                }
+            },
+            "TaK092" : {
+                "ID" : "TaK092",
+                "Ubicacion" : "Sitio B, Nivel 01, #21",
+                "Misc" : "SW: 0, Q: 1, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["area", "/game/site-b/level-08/Cou047"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Lain" , "Vamos a cerrar este mundo."]
+                }
+            },
+            "TaK168" : {
+                "ID" : "TaK168",
+                "Ubicacion" : "Sitio B, Nivel 01, #13",
+                "Misc" : "SW: 0, Q: 3, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["intrapsychic", "/game/site-a/level-02/Tda009"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "No me importa que siga así durante años, ni siquiera tenemos otras opciones."]
+                }
+            },
+            "TaK169" : {
+                "ID" : "TaK169",
+                "Ubicacion" : "Sitio B, Nivel 01, #22",
+                "Misc" : "SW: 0, Q: 3, Estado: visible, Tipo: 2",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "-",
+                "Tipo" : "TaK",
+                "Tags" : {
+                    "1" : ["ring", "/game/site-b/level-05/Tda070"]
+                },
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "Quédate conmigo."]
+                }
+            },
+            "Sskn04" : {
+                "ID" : "Sskn04",
+                "Ubicacion" : "Sitio B, Nivel 01, #00",
+                "Misc" : "SW: 3, Q: 0, estado: visible, tipo: 0",
+                "Requiere" : "Nada",
+                "Revela" : "Nada",
+                "Info" : "mT up-date App.\nmovie-tool\nplaying movie\nfreeware",
+                "Tipo" : "Sskn",
+                "Video" : [false],
+                "Dialogos" : {
+                    "1" : [ "Touko" , "Quédate conmigo."]
                 }
             }
         }
