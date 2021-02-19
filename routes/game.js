@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-let Lain = require('./../lain.json');
+let Lain = require('./../public/content/lain.json');
+let alphabeticalOrder = require('./../public/content/order.json').alphabeticalOrder;
 
 /* GET Home page */
 
@@ -31,10 +32,14 @@ router.get('/:site/:level/:id', function(req, res, next) {
     let id = req.params.id;
     let LainResponse = Lain[site][level][id];
     let videoExist = LainResponse["Video"][0];
-    if(videoExist){
-      res.render('archive-interface-video', { LainResponse : LainResponse, level : level, site : site});
-    }else{
-      res.render('archive-interface', { LainResponse : LainResponse, level : level, site : site});
+    for(let x = 0 ; x < alphabeticalOrder.length ; x++){
+      if(alphabeticalOrder[x] == "/"+site+"/"+level+"/"+id){
+        if(videoExist){
+          res.render('archive-interface-video', { LainResponse : LainResponse, level : level, site : site, nivelPosteriorAlfabetico : alphabeticalOrder[x+1] , nivelAnteriorAlfabetico : alphabeticalOrder[x-1]});
+        }else{
+          res.render('archive-interface', { LainResponse : LainResponse, level : level, site : site, nivelPosteriorAlfabetico : alphabeticalOrder[x+1] , nivelAnteriorAlfabetico : alphabeticalOrder[x-1]});
+        }
+      }
     }
 });
   

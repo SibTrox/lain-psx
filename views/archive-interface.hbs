@@ -18,6 +18,16 @@
 </head>
 <body>
     <div class="up-line color-line">
+        <article class="enlaces-top">
+            <a class="signos-top" href="/game{{nivelAnteriorAlfabetico}}"> < </a>
+            <p class="archive-name-top">N</p>
+            <a class="signos-top" href="/game{{nivelPosteriorAlfabetico}}"> > </a>
+        </article>
+        <article class="enlaces-top">
+            <a class="signos-top" href="/game{{nivelAnteriorAlfabetico}}"> < </a>
+            <p class="archive-name-top">C</p>
+            <a class="signos-top" href="/game{{nivelPosteriorAlfabetico}}"> > </a>
+        </article>
         <a class="top-menu" href="/game/{{site}}/{{level}}">
             <img src="/img/svg/Home.svg" id="logo-tachibana" onmouseover="TachibanaLogoSelected()" onmouseout="TachibanaLogoNotSelected()">
         </a>
@@ -41,9 +51,9 @@
         <div class="right-section">
             <section class="right-top-section">
                 <article class="archive-title">
-                    <p class="signos"> < </p>
+                    <a class="signos" href="/game{{nivelAnteriorAlfabetico}}"> < </a>
                     <p class="archive-name">{{LainResponse.ID}}</p>
-                    <p class="signos"> > </p>
+                    <a class="signos" href="/game{{nivelPosteriorAlfabetico}}"> > </a>
                 </article>
                 <article class="archive-tags">
                     {{#each LainResponse.Tags}}

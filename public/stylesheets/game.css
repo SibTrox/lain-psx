@@ -39,6 +39,8 @@
         background-color: #4B46C8;
     }
     .up-line { 
+        display: flex;
+        justify-content: row;
         grid-area: 1 / 1 / 2 / 2; 
         padding: 0.6vw;
         margin: 0;

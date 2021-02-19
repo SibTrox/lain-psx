@@ -9,6 +9,23 @@
 .medium{
     grid-template-columns: 0.3fr 0.7fr;
 }
+.enlaces-top{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.archive-name-top{
+    font-family: 'FiraCode';
+    color: white;
+}
+.signos-top{
+    color: #FFB437;
+    font-family: "FiraCode-Bold";
+    text-decoration: none;
+}
+.signos-top:hover{
+    color: #FFEE52;
+}
 /* Left Section */
 .left-section{
     padding: 0%;
@@ -72,6 +89,10 @@
     color: #FFB437;
     font-family: "FiraCode-Bold";
     font-size: 3vw;
+    text-decoration: none;
+}
+.signos:hover{
+    color: #FFEE52;
 }
 .right-top-section{
     display: flex;
