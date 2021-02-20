@@ -13,6 +13,14 @@
     display: flex;
     justify-content: left;
     flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.links-top{
+    display: flex;
+    margin-right: 13.5%;
 }
 .archive-name-top{
     font-family: 'FiraCode';
@@ -193,6 +201,9 @@
 
 @media screen and (max-width: 900px) {
     /* Acomodo elementos */
+    .links-top{
+        margin-right: 7vh;
+    }
     .medium{
         display: grid;
         grid-template-columns: 1fr;
