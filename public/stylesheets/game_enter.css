@@ -23,7 +23,7 @@
     margin-right: 13.5%;
 }
 .archive-name-top{
-    font-family: 'FiraCode';
+    font-family: "FiraCode";
     color: white;
 }
 .signos-top{
@@ -58,7 +58,7 @@
         .subtitle-info{
             text-align: left;
             color: #D3D3D3;
-            font-family: 'FiraCode';
+            font-family: "FiraCode";
             margin: 0.5% 0% 0.5% 0%;
             font-size: 1.1vw;
             white-space: pre-wrap;
@@ -71,7 +71,7 @@
     /* Dictionary left section */
 
         .foot-notes{
-            font-family: 'FiraSans-Regular';
+            font-family: "FiraSans-Regular";
             font-size: 14px;
             color: #d3d3d3;
             width: 90%;
@@ -109,7 +109,7 @@
     margin: 1% 0% 1% 0%;
 }
 .archive-name{
-    font-family: 'FiraCode';
+    font-family: "FiraCode";
     color: white;
     font-size: 3vw;
     margin: 0% 5%;
@@ -125,7 +125,7 @@
     align-self: center;
 }
 .archive-tags a{
-    font-family: 'FiraCode';
+    font-family: "FiraCode";
     text-decoration: none;
     color: #FFB437;
     font-size: 1vw;
@@ -145,7 +145,7 @@
     grid-row-gap: 0.5vw;
     margin-top: 5%;
     width: 70%;
-    font-family: 'FiraSans-Regular';
+    font-family: "FiraSans-Regular";
     font-size: 1.3vw;
 }
 .dialogos article{
@@ -242,7 +242,7 @@
         grid-row-gap: 0px;
         margin-top: 5%;
         width: 70%;
-        font-family: 'FiraSans-Regular';
+        font-family: "FiraSans-Regular";
         font-size: 1.3vw;
         width: 80%;
     }

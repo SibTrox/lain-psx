@@ -1,30 +1,30 @@
 var audio_player = $("#audio-player");
-var play_button = $('#play');
+var play_button = $("#play");
 var progress_bar = $("#progressbar");
 var time = $("#time");
-var mute_button = $('#mute');
-var volume_bar = $('#volume');
-var more_info = $('#more-info-box');
+var mute_button = $("#mute");
+var volume_bar = $("#volume");
+var more_info = $("#more-info-box");
 var info_tray = $("#info-tray");
-var player = document.getElementById('player');
+var player = document.getElementById("player");
 var duration = 0;
 var volume = 0.75;
 
 player.onloadedmetadata = function() {
     duration = player.duration;
-    progress_bar.progressbar("option", { 'max' : duration });
+    progress_bar.progressbar("option", { "max" : duration });
 };
 
 player.load();
 player.volume = 0.75;
 player.addEventListener("timeupdate", function() {
-    progress_bar.progressbar('value', player.currentTime);
+    progress_bar.progressbar("value", player.currentTime);
     time.text(getTime(player.currentTime));
 }, false);
 
 function getTime(t) {
     var m=~~(t/60), s=~~(t % 60);
-    return (m<10?"0"+m:m)+':'+(s<10?"0"+s:s);
+    return (m<10?"0"+m:m)+":"+(s<10?"0"+s:s);
 }
 
 function getProgressBarClickInfo(progress_bar, e) {
@@ -43,7 +43,7 @@ volume_bar.progressbar({
 
 volume_bar.click(function(e) {
     var info = getProgressBarClickInfo($(this), e);
-    volume_bar.progressbar('value', info.value);
+    volume_bar.progressbar("value", info.value);
     player.volume = info.value / info.max;
 });
 
@@ -57,7 +57,7 @@ progress_bar.click(function(e) {
 });
 
 play_button.click(function() {
-    player[player.paused ? 'play' : 'pause']();
+    player[player.paused ? "play" : "pause"]();
     $(this).toggleClass("fa-play", !player.paused);
     $(this).toggleClass("fa-pause", player.paused);
 });
@@ -70,7 +70,7 @@ mute_button.click(function() {
         player.volume = 0;
     }
 
-    volume_bar.progressbar('value', player.volume * 100);
+    volume_bar.progressbar("value", player.volume * 100);
 
     $(this).toggleClass("fa-volume-up", player.volume != 0);
     $(this).toggleClass("fa-volume-off", player.volume == 0);

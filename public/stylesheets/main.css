@@ -145,7 +145,7 @@ transform-origin: 50% 43%;
         text-decoration: none;
         color: #FFB437; 
         font-size: 1.4vw;
-        font-family: 'FiraCode-Bold';
+        font-family: "FiraCode-Bold";
     }
     .acceder:hover{
         color: #FFEE52;
@@ -154,7 +154,7 @@ transform-origin: 50% 43%;
         text-decoration: none;
         color: white; 
         font-size: 1.4vw;
-        font-family: 'FiraCode-Bold';
+        font-family: "FiraCode-Bold";
     }
 /* Contenedor y midlane */
 
@@ -201,7 +201,7 @@ transform-origin: 50% 43%;
     }
 /* Rutas */
     .title{
-        font-family: 'FiraCode';
+        font-family: "FiraCode";
         color: white;
         font-size: 2.5vw;
         padding-top: 1%;
@@ -227,7 +227,7 @@ transform-origin: 50% 43%;
     }
     h3{
         text-align: center;
-        font-family: 'FiraCode-Bold';
+        font-family: "FiraCode-Bold";
         font-size: 2vw;
         margin-top: 2%;
         margin-bottom: 1%;
@@ -242,13 +242,13 @@ transform-origin: 50% 43%;
     .volver p{
         text-decoration: none;
         color: white;
-        font-family: 'FiraCode';
+        font-family: "FiraCode";
         font-size: 1.2vw;
     }
     .link-volver{
         text-decoration: none;
         color: #FFB437;
-        font-family: 'FiraCode';
+        font-family: "FiraCode";
         font-size: 1.2vw;
         font-weight: bolder;
     }
@@ -263,7 +263,7 @@ transform-origin: 50% 43%;
         color: #FFFC52;
     }
     .subtitulo-routes{
-        font-family: 'FiraCode-Bold';
+        font-family: "FiraCode-Bold";
         margin: 2% 0% 2% 0%;
         font-size: 1.2vw;
     }
@@ -280,18 +280,18 @@ transform-origin: 50% 43%;
         flex-direction: row;
     }
     .staff-nombres{
-        font-family: 'FiraCode';
+        font-family: "FiraCode";
         font-size: 1.1vw;
         color: #F3F3F3;
     }
     .staff-subtitulo{
-        font-family: 'FiraCode-Bold';
+        font-family: "FiraCode-Bold";
         font-size: 1.5vw;
         color: #CEE8ED;
         margin: 2% 0% 2% 0%;
     }
     .staff-cargo{
-        font-family: 'FiraCode';
+        font-family: "FiraCode";
         color: #F3F3F3;
         font-size: 1.1vw;
         margin: 3% 0% 1% 0%;
@@ -371,7 +371,7 @@ transform-origin: 50% 43%;
             text-decoration: none;
             color: white; 
             font-size: 18px;
-            font-family: 'FiraCode-Bold';
+            font-family: "FiraCode-Bold";
         }
         .up-line {
             padding: 1vw 4vw 1vw 4vw;
